@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4 class="tit">Rock-Paper-Scissors</h4>
+
+    <div class="buttons">
+        <button class="rock"><img src="assets/rock-emoji.png" alt=""></button>
+        <button class="paper"><img src="assets/paper-emoji.png" alt=""></button>
+        <button class="scissors"><img src="assets/scissors-emoji.png" alt=""></button>
+    </div>
+
+    <div id="action">
+        <div class="result">
+            <h4 id="res" style="color: white;">
+                Game
+            </h4>
+        </div>
+    
+        <div class="game-console">
+            <h1>
+                You
+            </h1>
+            <img id="img-player" src="assets/paper-emoji.png" >
+            <img id="img-comp" src="assets/rock-emoji.png" >
+            <h1>
+                Computer
+            </h1>
+        </div>
+    
+    
+        <div class="bottom-console">
+    
+            <h1>
+                Wins: <h1 id="win">0</h1> <h1>,</h1>
+            </h1>
+            <h1>
+                losses: <h1 id="loss">0</h1> <h1>,</h1>
+            </h1>
+            <h1>
+                Ties: <h1 id="tie">0</h1>
+            </h1>
+        </div>
+    
+        <button id="btn">
+            Reset Score
+        </button>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
